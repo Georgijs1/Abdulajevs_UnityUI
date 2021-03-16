@@ -1,5 +1,5 @@
 # UnityUI pārbaudes darbs
-<img src= "https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-masterbrand-black.png" width="200">
+<img src= "https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-masterbrand-black.png" width="100">
 
 ### *Uzdevumu saraksts:*
 -  [x] Izveidot projektu GitHub'ā
