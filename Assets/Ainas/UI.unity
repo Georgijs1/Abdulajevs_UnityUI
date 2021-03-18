@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 51803445}
   - component: {fileID: 51803447}
   - component: {fileID: 51803446}
+  - component: {fileID: 51803448}
   m_Layer: 0
   m_Name: SteeveLazyLegs
   m_TagString: Untagged
@@ -156,7 +157,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -339, y: -190}
-  m_SizeDelta: {x: 264, y: 215}
+  m_SizeDelta: {x: 266, y: 217}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &51803446
 MonoBehaviour:
@@ -195,6 +196,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51803444}
   m_CullTransparentMesh: 0
+--- !u!114 &51803448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51803444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &85007099
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,104 +319,6 @@ Transform:
   m_Father: {fileID: 1827516073}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &192605226
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 192605227}
-  - component: {fileID: 192605230}
-  - component: {fileID: 192605229}
-  - component: {fileID: 192605228}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &192605227
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192605226}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 619031711}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!114 &192605228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192605226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &192605229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192605226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &192605230
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192605226}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1 &245886705
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +478,7 @@ GameObject:
   - component: {fileID: 275750626}
   - component: {fileID: 275750628}
   - component: {fileID: 275750627}
+  - component: {fileID: 275750629}
   m_Layer: 0
   m_Name: alexlegs
   m_TagString: Untagged
@@ -625,6 +542,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275750625}
   m_CullTransparentMesh: 0
+--- !u!114 &275750629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275750625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &308048334
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +566,7 @@ GameObject:
   - component: {fileID: 308048335}
   - component: {fileID: 308048337}
   - component: {fileID: 308048336}
+  - component: {fileID: 308048338}
   m_Layer: 0
   m_Name: steevebodyvoid
   m_TagString: Untagged
@@ -660,7 +591,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 30, y: -255}
-  m_SizeDelta: {x: 260, y: 183}
+  m_SizeDelta: {x: 262, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &308048336
 MonoBehaviour:
@@ -699,6 +630,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308048334}
   m_CullTransparentMesh: 0
+--- !u!114 &308048338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308048334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &364624734
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +732,7 @@ GameObject:
   - component: {fileID: 377491213}
   - component: {fileID: 377491215}
   - component: {fileID: 377491214}
+  - component: {fileID: 377491216}
   m_Layer: 0
   m_Name: alexheadmask
   m_TagString: Untagged
@@ -812,7 +757,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 405, y: -30}
-  m_SizeDelta: {x: 230, y: 122}
+  m_SizeDelta: {x: 232, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377491214
 MonoBehaviour:
@@ -851,6 +796,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377491212}
   m_CullTransparentMesh: 0
+--- !u!114 &377491216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377491212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &380535604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +961,7 @@ GameObject:
   - component: {fileID: 390806114}
   - component: {fileID: 390806116}
   - component: {fileID: 390806115}
+  - component: {fileID: 390806117}
   m_Layer: 0
   m_Name: Steeveheadmask
   m_TagString: Untagged
@@ -1027,7 +986,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 19, y: -30}
-  m_SizeDelta: {x: 260, y: 122}
+  m_SizeDelta: {x: 262, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &390806115
 MonoBehaviour:
@@ -1066,6 +1025,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390806113}
   m_CullTransparentMesh: 0
+--- !u!114 &390806117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390806113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &393664440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,7 +1072,7 @@ Transform:
   - {fileID: 2124141103}
   - {fileID: 743334367}
   m_Father: {fileID: 566674997}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &566674993
 GameObject:
@@ -1192,12 +1164,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 619031711}
   - {fileID: 1046141496}
   - {fileID: 2018132833}
   - {fileID: 393664441}
   - {fileID: 1827516073}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1337,13 +1310,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619031708}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -850, y: -450, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 192605227}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Children: []
+  m_Father: {fileID: 566674997}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &625586680
 GameObject:
@@ -1948,15 +1920,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822124654}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 308048335}
   - {fileID: 860077042}
   - {fileID: 1331963761}
-  m_Father: {fileID: 1827516073}
-  m_RootOrder: 2
+  m_Father: {fileID: 2076141964}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &830229300
 GameObject:
@@ -2043,6 +2015,7 @@ GameObject:
   - component: {fileID: 860077042}
   - component: {fileID: 860077044}
   - component: {fileID: 860077043}
+  - component: {fileID: 860077045}
   m_Layer: 0
   m_Name: alexbody
   m_TagString: Untagged
@@ -2067,7 +2040,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 314, y: -255}
-  m_SizeDelta: {x: 260, y: 183}
+  m_SizeDelta: {x: 262, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860077043
 MonoBehaviour:
@@ -2106,6 +2079,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860077041}
   m_CullTransparentMesh: 0
+--- !u!114 &860077045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860077041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &928315636
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,7 +2151,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943607597}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2173,8 +2159,8 @@ Transform:
   - {fileID: 1412245180}
   - {fileID: 377491213}
   - {fileID: 1613021280}
-  m_Father: {fileID: 1827516073}
-  m_RootOrder: 1
+  m_Father: {fileID: 2076141964}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1016748007
 GameObject:
@@ -2331,7 +2317,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 566674997}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2664,6 +2650,7 @@ GameObject:
   - component: {fileID: 1331963761}
   - component: {fileID: 1331963763}
   - component: {fileID: 1331963762}
+  - component: {fileID: 1331963764}
   m_Layer: 0
   m_Name: stevelazybody
   m_TagString: Untagged
@@ -2688,7 +2675,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 595, y: -255}
-  m_SizeDelta: {x: 260, y: 183}
+  m_SizeDelta: {x: 262, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1331963762
 MonoBehaviour:
@@ -2727,6 +2714,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331963760}
   m_CullTransparentMesh: 0
+--- !u!114 &1331963764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331963760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &1386097399
 GameObject:
   m_ObjectHideFlags: 0
@@ -2862,6 +2862,7 @@ GameObject:
   - component: {fileID: 1412245180}
   - component: {fileID: 1412245182}
   - component: {fileID: 1412245181}
+  - component: {fileID: 1412245183}
   m_Layer: 0
   m_Name: Steeveheadvoid
   m_TagString: Untagged
@@ -2886,7 +2887,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 211, y: -30}
-  m_SizeDelta: {x: 260, y: 122}
+  m_SizeDelta: {x: 262, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1412245181
 MonoBehaviour:
@@ -2925,6 +2926,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412245179}
   m_CullTransparentMesh: 0
+--- !u!114 &1412245183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412245179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &1493609900
 GameObject:
   m_ObjectHideFlags: 0
@@ -3354,6 +3368,7 @@ GameObject:
   - component: {fileID: 1613021280}
   - component: {fileID: 1613021282}
   - component: {fileID: 1613021281}
+  - component: {fileID: 1613021283}
   m_Layer: 0
   m_Name: Alexhead2
   m_TagString: Untagged
@@ -3378,7 +3393,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 596, y: -30}
-  m_SizeDelta: {x: 230, y: 122}
+  m_SizeDelta: {x: 232, y: 124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1613021281
 MonoBehaviour:
@@ -3417,6 +3432,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613021279}
   m_CullTransparentMesh: 0
+--- !u!114 &1613021283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613021279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &1700058046
 GameObject:
   m_ObjectHideFlags: 0
@@ -3791,11 +3819,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 182675150}
-  - {fileID: 943607598}
-  - {fileID: 822124655}
-  - {fileID: 2023113883}
+  - {fileID: 2076141964}
   m_Father: {fileID: 566674997}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1864856919
 GameObject:
@@ -4191,6 +4217,7 @@ GameObject:
   - component: {fileID: 1989413283}
   - component: {fileID: 1989413285}
   - component: {fileID: 1989413284}
+  - component: {fileID: 1989413286}
   m_Layer: 0
   m_Name: steevelegs
   m_TagString: Untagged
@@ -4215,7 +4242,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -163, y: -190}
-  m_SizeDelta: {x: 264, y: 215}
+  m_SizeDelta: {x: 266, y: 217}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1989413284
 MonoBehaviour:
@@ -4254,6 +4281,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989413282}
   m_CullTransparentMesh: 0
+--- !u!114 &1989413286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989413282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &2001749281
 GameObject:
   m_ObjectHideFlags: 0
@@ -4364,7 +4404,7 @@ Transform:
   - {fileID: 2001749282}
   - {fileID: 1196081047}
   m_Father: {fileID: 566674997}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2023113882
 GameObject:
@@ -4397,8 +4437,41 @@ Transform:
   - {fileID: 2101127805}
   - {fileID: 51803445}
   - {fileID: 275750626}
+  m_Father: {fileID: 2076141964}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2076141963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076141964}
+  m_Layer: 0
+  m_Name: "Ap\u0123\u0113rbi"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2076141964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076141963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 943607598}
+  - {fileID: 822124655}
+  - {fileID: 2023113883}
   m_Father: {fileID: 1827516073}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2078138603
 GameObject:
@@ -4489,6 +4562,7 @@ GameObject:
   - component: {fileID: 2101127805}
   - component: {fileID: 2101127807}
   - component: {fileID: 2101127806}
+  - component: {fileID: 2101127808}
   m_Layer: 0
   m_Name: steevevoidlegs
   m_TagString: Untagged
@@ -4513,7 +4587,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 25, y: -190}
-  m_SizeDelta: {x: 264, y: 215}
+  m_SizeDelta: {x: 266, y: 217}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2101127806
 MonoBehaviour:
@@ -4552,6 +4626,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101127804}
   m_CullTransparentMesh: 0
+--- !u!114 &2101127808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101127804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01708326244fa9a4b9808f18ff6715e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kanva: {fileID: 566674996}
 --- !u!1 &2118302476
 GameObject:
   m_ObjectHideFlags: 0
