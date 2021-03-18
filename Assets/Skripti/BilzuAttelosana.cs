@@ -10,6 +10,12 @@ public class BilzuAttelosana : MonoBehaviour
     public GameObject legs;
     public GameObject mainigaisAttels;
     public Sprite[] atteluMasivs;
+    public GameObject slaideris;
+
+    public void mainitLielumu(){
+        float pasreizejaVertiba = slaideris.GetComponent<Slider>().value;
+        mainigaisAttels.transform.localScale = new Vector3(1F * pasreizejaVertiba, 1F * pasreizejaVertiba, 1);
+    }
 
     public void izkritosais(int skaitlis)
     {
