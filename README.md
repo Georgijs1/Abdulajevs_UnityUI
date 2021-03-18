@@ -3,10 +3,10 @@
 
 ### *Uzdevumu saraksts:*
 -  [x] Izveidot projektu GitHub'ā
--  [ ] Noklonēt projektu uz savu datoru
--  [ ] Pievienot teksta ievadīšanas laukus
+-  [x] Noklonēt projektu uz savu datoru
+-  [x] Pievienot teksta ievadīšanas laukus
 -  [ ] Pievienot izkrītošā saraksta pogu
 -  [ ] Izveidot vairākas apģērbu un aprīkojuma kategorijas
 -  [ ] Pievienot skaņas efektus
 -  [ ] Ievietot scroll komponenti
--  [ ] Iekļaut divus slider elemntus
+-  [ ] Iekļaut divus slider elementus
