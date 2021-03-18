@@ -5,8 +5,8 @@
 -  [x] Izveidot projektu GitHub'ā
 -  [x] Noklonēt projektu uz savu datoru
 -  [x] Pievienot teksta ievadīšanas laukus
--  [ ] Pievienot izkrītošā saraksta pogu
--  [ ] Izveidot vairākas apģērbu un aprīkojuma kategorijas
--  [ ] Pievienot skaņas efektus
--  [ ] Ievietot scroll komponenti
--  [ ] Iekļaut divus slider elementus
+-  [x] Pievienot izkrītošā saraksta pogu
+-  [x] Izveidot vairākas apģērbu un aprīkojuma kategorijas
+-  [x] Pievienot skaņas efektus
+-  [x] Ievietot scroll komponenti
+-  [x] Iekļaut divus slider elementus
